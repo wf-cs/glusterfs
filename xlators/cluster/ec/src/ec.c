@@ -35,6 +35,8 @@
  */
 #define EC_MAX_NODES     (EC_MAX_FRAGMENTS + ((EC_MAX_FRAGMENTS - 1) / 2))
 
+
+/* Parse the options tranferred to EC.  */
 int32_t ec_parse_options(xlator_t * this)
 {
     ec_t * ec = this->private;
